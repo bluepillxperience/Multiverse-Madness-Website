@@ -1,4 +1,4 @@
-// Basic interactivity: mobile nav + year + smooth close
+// Mobile nav + current year
 const toggle = document.querySelector('.nav-toggle');
 const menu = document.getElementById('navmenu');
 toggle?.addEventListener('click', () => {
@@ -8,4 +8,4 @@ toggle?.addEventListener('click', () => {
 menu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
   if (menu.classList.contains('show')) menu.classList.remove('show');
 }));
-document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('year') && (document.getElementById('year').textContent = new Date().getFullYear());

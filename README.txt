@@ -1,28 +1,11 @@
-Multiverse Madness — Static Website
-==================================
+Multiverse Madness — Static Website (v2)
+=======================================
+Tweaks: SEO/OG tags, sticky WhatsApp CTA, Google Maps embeds, 404.html, robots.txt, sitemap.xml, and manifest.
 
-Ready-to-upload static site for GitHub Pages / any static host.
-
-Files
------
-- index.html
-- assets/style.css
-- assets/script.js
-- assets/logo.svg
-- assets/favicon.svg
-- assets/hero-bg.svg
-
-How to use with GitHub Pages
+How to deploy (GitHub Pages)
 ----------------------------
-1) Create a public repo named <your-username>.github.io
-2) Upload all files keeping this structure
-3) Settings → Pages → Source: Deploy from a branch (main / root)
-4) Open https://<your-username>.github.io
-
-Custom Domain (GoDaddy)
------------------------
-A @ 185.199.108.153
-A @ 185.199.109.153
-A @ 185.199.110.153
-A @ 185.199.111.153
-CNAME www <your-username>.github.io
+1) Create public repo <username>.github.io
+2) Upload all files at repo root
+3) Settings → Pages → Deploy from a branch (main / root)
+4) Open https://<username>.github.io
+5) Custom domain: add in Settings → Pages and set DNS.
