@@ -1,215 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Multiverse Madness — VR Arena | Chennai</title>
-  <meta name="description" content="Multiverse Madness — Free Roam VR Arena, e-Sports, Escape Rooms and immersive VR experiences in Chennai. Book now for friends, families and corporate events.">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="manifest" href="manifest.webmanifest">
-  <meta name="theme-color" content="#0b0f14">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Multiverse Madness — VR Arena | Chennai">
-  <meta property="og:description" content="Free-Roam VR Arena • e-Sports • Escape Rooms • Family & Kids. Book now on WhatsApp.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://example.com/">
-  <meta property="og:image" content="https://example.com/assets/og-cover.png">
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Multiverse Madness — VR Arena | Chennai">
-  <meta name="twitter:description" content="Free-Roam VR Arena • e-Sports • Escape Rooms • Family & Kids.">
-  <meta name="twitter:image" content="https://example.com/assets/og-cover.png">
-
-  <link rel="preload" href="assets/hero-bg.svg" as="image" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/style.css">
-  <script type="application/ld+json">
-  {"@context": "https://schema.org", "@type": "Organization", "name": "Multiverse Madness", "url": "https://example.com/", "logo": "https://example.com/assets/logo.svg", "sameAs": ["https://instagram.com/Multiverse_Madness_VRarena"]}
-  </script>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Multiverse Madness — VR Free Roam Arena</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="sticky-cta" href="https://wa.me/919840004285" target="_blank" rel="noopener" aria-label="Book on WhatsApp">Book on WhatsApp</a>
-
+  <!-- Header / Kabana (right-aligned) -->
   <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#home" aria-label="Multiverse Madness Home">
-        <img src="assets/logo.svg" alt="Multiverse Madness logo" class="logo">
-        <span class="brand-text">Multiverse <strong>Madness</strong></span>
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <img src="assets/images/MM%20logo.jpeg" alt="Multiverse Madness logo" />
+        <span>Multiverse Madness</span>
       </a>
-      <nav class="nav" aria-label="Primary">
-        <button class="nav-toggle" aria-expanded="false" aria-controls="navmenu">
-          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-          <span class="sr-only">Menu</span>
-        </button>
-        <ul id="navmenu" class="navmenu">
-          <li><a href="#experiences">Experiences</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#visit">Visit</a></li>
-          <li><a class="btn btn-primary" href="https://wa.me/919840004285" target="_blank" rel="noopener">Book on WhatsApp</a></li>
-        </ul>
+      <nav class="kabana">
+        <a href="#home">Home</a>
+        <a href="#games">Our Games</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contract Us</a>
       </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
     </div>
   </header>
 
-  <main id="home">
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>Step Inside Another Universe</h1>
-          <p class="lead">Free-Roam VR Arena • e-Sports • Escape Rooms • Family &amp; Kids</p>
-          <div class="actions">
-            <a class="btn btn-primary" href="#experiences">Explore Experiences</a>
-            <a class="btn btn-ghost" href="#pricing">View Pricing</a>
-          </div>
-          <ul class="badges" aria-label="Highlights">
-            <li>20+ Games</li>
-            <li>Team Play</li>
-            <li>Birthday &amp; Corporate Events</li>
-          </ul>
-        </div>
-        <div class="hero-art" role="img" aria-label="Futuristic VR grid background">
-          <img src="assets/hero-bg.svg" alt="" />
-        </div>
+  <!-- Hero with two videos -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1>Step Into Another Universe</h1>
+        <p>Free-roam VR for friends, families, parties & team-building. Walk, dodge, and battle together in arena-scale adventures.</p>
+        <a class="cta" href="#games">Explore Our Games</a>
       </div>
-    </section>
+      <div class="video-stack">
+        <video class="vid primary" src="assets/videos/web%20video1.mp4" autoplay muted loop playsinline></video>
+        <video class="vid secondary" src="assets/videos/GameVideos.mp4" autoplay muted loop playsinline></video>
+      </div>
+    </div>
+  </section>
 
-    <section id="experiences" class="section">
-      <div class="container">
-        <header class="section-head">
-          <h2>Experiences</h2>
-          <p class="muted">Tap a tile to see games when your full catalog is live. Categories show the current game count.</p>
-        </header>
-        <div class="grid cards">
-          <article class="card">
-            <h3>Children <span class="count">8 games</span></h3>
-            <p>Wholesome, beginner-friendly VR fun for ages 6+ with staff guidance.</p>
-          </article>
-          <article class="card">
-            <h3>Adventure <span class="count">6 games</span></h3>
-            <p>Story-driven rides, rail shooters and cinematic journeys.</p>
-          </article>
-          <article class="card">
-            <h3>e-Sports <span class="count">10 games</span></h3>
-            <p>Competitive arena play, 1v1 &amp; 2v2 duels, and leaderboards.</p>
-          </article>
-          <article class="card">
-            <h3>FPS <span class="count">9 games</span></h3>
-            <p>Co-op zombie defense, tactical shooters and wave survival.</p>
-          </article>
-          <article class="card">
-            <h3>Premium <span class="count">3 games</span></h3>
-            <p>Feature experiences and special events with expanded arenas.</p>
-          </article>
-          <article class="card">
-            <h3>Escape Rooms <span class="count">4 games</span></h3>
-            <p>Team puzzles and time-trial challenges in themed worlds.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+  <!-- Our Games -->
+  <section id="games" class="section">
+    <div class="container">
+      <h2>Our Games</h2>
+      <p class="sub">Highlights from our VR Arena lineup.</p>
+      <div id="gamesGrid" class="cards"></div>
+      <p class="pdf-note">Full details available in our brochure.</p>
+    </div>
+  </section>
 
-    <section id="pricing" class="section section-alt">
-      <div class="container">
-        <header class="section-head">
-          <h2>Pricing</h2>
-          <p class="muted">Introductory rates. Per-player pricing; taxes as applicable.</p>
-        </header>
-        <div class="grid price-cards">
-          <article class="price-card">
-            <h3>Children</h3>
-            <div class="price">₹99<span>/ kid</span></div>
-            <p>Curated kids lineup • Staff guided • 8–10 minutes</p>
-          </article>
-          <article class="price-card">
-            <h3>e-Sports</h3>
-            <div class="price">₹249<span>/ 2 players</span></div>
-            <p>Duos competitive session • 10 minutes</p>
-            <div class="subprice">₹199 <span>/ Solo</span></div>
-          </article>
-          <article class="price-card">
-            <h3>Escape Rooms</h3>
-            <div class="price">₹349<span>/ player</span></div>
-            <p>Team puzzle challenge • 20 minutes</p>
-          </article>
-          <article class="price-card">
-            <h3>Starter</h3>
-            <div class="price">From ₹149<span>/ player</span></div>
-            <p>Great for first-timers • 8–10 minutes • Staff recommended</p>
-          </article>
-        </div>
-        <div class="center mt-24">
-          <a class="btn btn-primary" href="https://wa.me/919840004285" target="_blank" rel="noopener">Book on WhatsApp</a>
-          <a class="btn btn-ghost" href="#visit">Plan your visit</a>
-        </div>
-      </div>
-    </section>
+  <!-- About -->
+  <section id="about" class="section alt">
+    <div class="container about">
+      <h2>About Us</h2>
+      <p>Multiverse Madness brings premium free-roam VR experiences to Chennai. We focus on fun, safety, and unforgettable group play.</p>
+    </div>
+  </section>
 
-    <section id="about" class="section">
-      <div class="container about">
-        <div>
-          <h2>About Us</h2>
-          <p><strong>Multiverse Madness</strong> is an immersive entertainment brand operated by <em>BluePill XR Amusement Arena</em>. We bring cutting-edge Free-Roam VR, e-Sports, and Escape Rooms to Chennai with safe, staff-guided experiences for friends, families and teams.</p>
-          <ul class="ticks">
-            <li>State-of-the-art standalone headsets (no cables, no backpacks)</li>
-            <li>Curated library across Adventure, FPS, Sports &amp; Kids</li>
-            <li>Party packages for Birthdays &amp; Corporates</li>
-          </ul>
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container contact">
+      <h2>Contract Us</h2>
+      <form class="contact-form" name="contact" netlify>
+        <div class="row">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Email" required />
         </div>
-        <aside class="about-card">
-          <h3>Quick Info</h3>
-          <dl>
-            <dt>Playtime</dt><dd>8–10 min (standard), 20 min (escape)</dd>
-            <dt>Group Size</dt><dd>1–6 players (per arena)</dd>
-            <dt>Age</dt><dd>6+ with guidance</dd>
-            <dt>Safety</dt><dd>On-site staff &amp; sanitized gear</dd>
-          </dl>
-        </aside>
-      </div>
-    </section>
-
-    <section id="visit" class="section section-alt">
-      <div class="container visit">
-        <div class="visit-card">
-          <h2>Visit Us</h2>
-          <div class="locations">
-            <article>
-              <h3>French Village Food Street, ECR – Akkarai</h3>
-              <p>Open-air food street hub with our VR arena pop-up.</p>
-              <div class="map-embed">
-                <iframe title="Map to French Village Food Street, ECR" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps?q=French%20Village%20Food%20Street%20Akkarai&output=embed"></iframe>
-              </div>
-            </article>
-            <article>
-              <h3>Pallavaram – Radial Road</h3>
-              <p>Convenient city-side location near 200-Feet Road.</p>
-              <div class="map-embed">
-                <iframe title="Map to Pallavaram Radial Road" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps?q=Pallavaram%20Radial%20Road%20Chennai&output=embed"></iframe>
-              </div>
-            </article>
-          </div>
-          <div class="contact">
-            <p><strong>Call / WhatsApp:</strong> <a href="tel:+919840004285">+91 98400 04285</a></p>
-            <p><strong>Instagram:</strong> <a href="https://instagram.com/Multiverse_Madness_VRarena" target="_blank" rel="noopener">@Multiverse_Madness_VRarena</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+        <textarea name="message" rows="5" placeholder="Tell us about your event or inquiry…" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p class="tiny">Prefer email? Write to <a href="mailto:bookings@multiversemadness.in">bookings@multiversemadness.in</a></p>
+    </div>
+  </section>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© <span id="year">2025</span> Multiverse Madness • Operated by BluePill XR Amusement Arena</p>
-      <nav aria-label="Footer">
-        <a href="#about">About</a>
-        <a href="#visit">Visit</a>
-        <a href="mailto:bluepillxperience@gmail.com">Email</a>
-      </nav>
+    <div class="container foot">
+      <span>© <span id="yr"></span> Multiverse Madness</span>
+      <a href="#home">Back to top ↑</a>
     </div>
   </footer>
 
-  <script src="assets/script.js" defer></script>
+  <script src="script.js"></script>
 </body>
 </html>
