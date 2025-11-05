@@ -41,18 +41,4 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// Initialize YouTube embeds with proper origin
-window.addEventListener('DOMContentLoaded', () => {
-  const frames = document.querySelectorAll('iframe[data-yt]');
-  const isHttp = location.protocol === 'http:' || location.protocol === 'https:';
-  const originParam = isHttp ? `&origin=${encodeURIComponent(location.origin)}` : '';
-
-  frames.forEach((f) => {
-    const id = f.getAttribute('data-yt');
-    if (!id) return;
-    const base = 'https://www.youtube-nocookie.com/embed/';
-    const query = `?rel=0&modestbranding=1&playsinline=1${originParam}`;
-    const src = `${base}${encodeURIComponent(id)}${query}`;
-    if (!f.getAttribute('src')) f.setAttribute('src', src);
-  });
-});
+// (YouTube direct iframes now used; no JS init needed)
