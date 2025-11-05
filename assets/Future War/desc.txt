@@ -1,0 +1,3 @@
+This is a military game with future world as theme. Players will become a lord in the game and can move freely in the war zone without
+worrying about the barrier. They need to cooperate with their teammates to take over the resource locations to get points. But please be careful,  for the opponents can also fight back for the resource locations any time. Kill opponents to get points. The final result depends on the points, so the team with the highest points wins. 
+Note: Taking over resource locations allows players to get more points than killing opponents.  

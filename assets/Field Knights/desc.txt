@@ -1,0 +1,10 @@
+Out fox your opponents in the Othello meets Minecarft fast. The game is designed for all adrenaline junkies, to keep you on the toes.
+Light up he cubes to gain points. The team
+with the highest points wins. Use props to
+light up cubes to increase points. If the cubes
+are taken by opponents, points will decrease.
+If the cubes in a vertical or horizontal line are
+lighted up, the points will be added in the
+result permanently. The map will change
+after a period of time and the team’s points
+will continue.

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Games | Multiverse Madness</title>
+  <meta name="description" content="Explore games at Multiverse Madness. Start with Nimble Magic Cube.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0b0f14">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .page-hero{padding:48px 0 24px}
+    .games-list{display:grid;gap:24px}
+    .game-item{display:grid;grid-template-columns:1.2fr .8fr;gap:20px;align-items:start}
+    .game-media iframe, .game-media video{width:100%;aspect-ratio:16/9;height:auto;display:block;border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow)}
+    .yt-fallback{display:block;margin-top:8px;color:var(--brand);font-size:14px;text-decoration:none}
+    .yt-fallback:hover{text-decoration:underline}
+    .game-info{border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow);padding:16px;background:linear-gradient(180deg, rgba(18,27,39,0.9), rgba(18,27,39,0.6))}
+    .game-info h3{margin-top:0;margin-bottom:8px}
+    .game-info p{margin:0;color:var(--muted);line-height:1.6}
+    .game-desc{white-space:pre-wrap;color:var(--muted);line-height:1.6;margin:0}
+    @media (max-width: 880px){.game-item{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+
+  <a class="sticky-cta" href="https://wa.me/919840004285" target="_blank" rel="noopener" aria-label="Book on WhatsApp">Book on WhatsApp</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html#home" aria-label="Multiverse Madness Home">
+        <img src="assets/logo.jpeg" alt="Multiverse Madness logo" class="logo">
+        <span class="brand-text">Multiverse <strong>Madness</strong></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="navmenu">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          <span class="sr-only">Menu</span>
+        </button>
+        <ul id="navmenu" class="navmenu">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#visit">Visit</a></li>
+          <li><a class="btn btn-primary" href="https://wa.me/919840004285" target="_blank" rel="noopener">Book on WhatsApp</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <header class="section-head">
+          <h2>Games</h2>
+          <p class="muted">Discover our growing library. Starting with Nimble Magic Cube.</p>
+        </header>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container games-list">
+        <article class="game-item">
+          <div class="game-media">
+            <iframe data-yt="PwhYOMWOac4"
+              title="Nimble Magic Cube (YouTube)" loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <a class="yt-fallback" href="https://youtu.be/PwhYOMWOac4" target="_blank" rel="noopener">Open on YouTube</a>
+          </div>
+          <div class="game-info">
+            <h3>Nimble Magic Cube</h3>
+            <div class="game-desc" data-src="assets/Nimble Magic Cube/desc.txt"></div>
+          </div>
+        </article>
+
+        <article class="game-item">
+          <div class="game-media">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LqF38N3ZbzI?si=bhuOWuImt73lNgo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="game-info">
+            <h3>Renovation</h3>
+            <div class="game-desc" data-src="assets/Renovation/desc.txt"></div>
+          </div>
+        </article>
+
+        <article class="game-item">
+          <div class="game-media">
+            <iframe data-yt="2S9b8-RpV0I"
+              title="Field Knights (YouTube)" loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <a class="yt-fallback" href="https://youtu.be/2S9b8-RpV0I" target="_blank" rel="noopener">Open on YouTube</a>
+          </div>
+          <div class="game-info">
+            <h3>Field Knights</h3>
+            <div class="game-desc" data-src="assets/Field Knights/desc.txt"></div>
+          </div>
+        </article>
+
+        <article class="game-item">
+          <div class="game-media">
+            <iframe data-yt="N2iNEj2v0Xo"
+              title="Puyo Shooter (YouTube)" loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <a class="yt-fallback" href="https://youtu.be/N2iNEj2v0Xo" target="_blank" rel="noopener">Open on YouTube</a>
+          </div>
+          <div class="game-info">
+            <h3>Puyo Shooter</h3>
+            <div class="game-desc" data-src="assets/Puyo Shooter/desc.txt"></div>
+          </div>
+        </article>
+
+        <article class="game-item">
+          <div class="game-media">
+            <iframe data-yt="9nM9o8SXsbc"
+              title="Future War (YouTube)" loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <a class="yt-fallback" href="https://youtu.be/9nM9o8SXsbc" target="_blank" rel="noopener">Open on YouTube</a>
+          </div>
+          <div class="game-info">
+            <h3>Future War</h3>
+            <div class="game-desc" data-src="assets/Future War/desc.txt"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2025</span> Multiverse Madness &mdash; Operated by BluePill XR Amusement Arena</p>
+      <nav aria-label="Footer">
+        <a href="index.html#about">About</a>
+        <a href="index.html#visit">Visit</a>
+        <a href="mailto:bluepillxperience@gmail.com">Email</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
